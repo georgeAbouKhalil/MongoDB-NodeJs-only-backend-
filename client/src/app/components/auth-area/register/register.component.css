@@ -1,0 +1,17 @@
+form  {
+	width: 250px;
+    padding-bottom: 15px;
+}
+
+input, button {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+span {
+    color: red;
+    position: absolute;
+    margin: 0 20px;
+}
+

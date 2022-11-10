@@ -1,0 +1,29 @@
+<div class="Box">
+
+    <h2>Register</h2>
+
+    <form (ngSubmit)="register()">
+
+        <label>First name: </label>
+        <input type="text" name="firstName" [(ngModel)]="user.firstName" >
+
+        <label>Last name: </label>
+        <input type="text" name="lastName" [(ngModel)]="user.lastName" >
+
+        <label>Username: </label>
+        <input type="text" name="username" [(ngModel)]="user.userName" >
+
+        <label>Password: </label>
+        <input type="password" name="password" [(ngModel)]="user.password" >
+
+        <label>age: </label>
+        <input type="number" name="age" [(ngModel)]="user.age" >
+
+        <label>Birthday: </label>
+        <input type="date" name="birthday" [(ngModel)]="user.birthday" >
+
+        <button>Register</button>
+
+    </form>
+
+</div>
