@@ -10,3 +10,4 @@ client needs to download npm i
 to run the backend : npm start
 
 to run client : ng s --o or ng serve
+ 
